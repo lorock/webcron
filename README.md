@@ -34,6 +34,10 @@
 创建数据库webcron，再导入install.sql
 
 	$ mysql -u username -p -D webcron < install.sql
+	
+编译
+
+	$ go build -o webcron main.go
 
 运行
 	
